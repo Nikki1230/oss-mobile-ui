@@ -1,0 +1,41 @@
+@footerBarHeight: calc(11vmin + 10px);
+.footerbar {
+  .footerbar-box {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    .footerbar-ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      li {
+        width: 20%;
+        text-align: center;
+        height: @footerBarHeight;
+        line-height: @footerBarHeight;
+        a {
+          text-decoration: none;
+          .link-box {
+            height: @footerBarHeight;
+            img {
+              display: flex;
+              width: calc(5vmin + 4px);
+              margin: 0 auto;
+              padding-top: 3px;
+            }
+            .link-title {
+              line-height: 19px;
+              height: 10px;
+              font-size: calc(3.3vmin);
+              margin-top: calc(2vmin - 7px);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ export default class Find extends PureComponent<any,any> {
     constructor(props: {} | Readonly<{}>) {
         super(props);
         this.state = {
-            index: "我是project页面"
+            index: "我是File页面"
         };
     }
     render() {
